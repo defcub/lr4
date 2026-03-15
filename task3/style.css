@@ -1,0 +1,17 @@
+.title {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+.title::before, .title::after {
+    content: "";
+    flex: 1;
+    height: 5px;
+    background-color: black;
+}
+
+.title span {
+    padding: 0 15px;
+}
